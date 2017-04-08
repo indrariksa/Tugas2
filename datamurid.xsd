@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="datamurid">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="murid"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="murid">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="no_induk"/>
+                <xs:element ref="nisn"/>
+                <xs:element ref="nama"/>
+                <xs:element ref="jk"/>
+                <xs:element ref="lahir"/>
+                <xs:element ref="alamat"/>
+                <xs:element ref="no_hp"/>
+                <xs:element ref="email"/>
+                <xs:element ref="thn_masuk"/>
+                <xs:element ref="ortu"/>
+            </xs:sequence>
+            <xs:attribute name="aktif" use="required">
+            	<xs:simpleType>
+            		<xs:restriction base="xs:NCName">
+            			<xs:pattern value="ya|tidak"></xs:pattern>
+            		</xs:restriction>
+            	</xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="no_induk" type="xs:integer"/>
+    <xs:element name="nisn" type="xs:integer"/>
+    <xs:element name="nama" type="xs:string"/>
+    <xs:element name="jk" type="xs:NCName"/>
+    <xs:element name="lahir">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="tempat"/>
+                <xs:element ref="tanggal"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="tempat" type="xs:NCName"/>
+    <xs:element name="tanggal" type="xs:string"/>
+    <xs:element name="alamat" type="xs:string"/>
+    <xs:element name="no_hp" type="xs:integer"/>
+    <xs:element name="email">
+    	<xs:simpleType>
+    		<xs:restriction base="xs:string">
+    			<xs:pattern value=".+@indrarh.com"></xs:pattern>
+    		</xs:restriction>
+    	</xs:simpleType>
+    </xs:element>
+    <xs:element name="thn_masuk" type="xs:integer"/>
+    <xs:element name="ortu">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ayah"/>
+                <xs:element ref="ibu"/>
+                <xs:element ref="alamat_ortu"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ayah" type="xs:string"/>
+    <xs:element name="ibu" type="xs:string"/>
+    <xs:element name="alamat_ortu" type="xs:string"/>
+</xs:schema>

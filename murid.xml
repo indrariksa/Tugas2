@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamurid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datamurid.xsd">
+	<murid aktif="tidak">
+		<no_induk>109080706050</no_induk>
+		<nisn>9955667788</nisn>
+		<nama>Indra Riksa Herlambang</nama>
+		<jk>Laki-laki</jk>
+		<lahir>
+			<tempat>Bandung</tempat>
+			<tanggal>26 Agustus 1997</tanggal>
+		</lahir>
+		<alamat>Komplek Bumi Harapan AA 3 No.19</alamat>
+		<no_hp>08122450582</no_hp>
+		<email>indrariksa@indrarh.com</email>
+		<thn_masuk>2012</thn_masuk>
+		<ortu>
+			<ayah>Ayi Jayusman</ayah>
+			<ibu>Sugiarti</ibu>
+			<alamat_ortu>Komplek Bumi Harapan AA 3 No.19</alamat_ortu>
+		</ortu> 
+	</murid>
+	<murid aktif="ya">
+		<no_induk>109080706040</no_induk>
+		<nisn>9955112233</nisn>
+		<nama>Sulthan Qintara</nama>
+		<jk>Laki-laki</jk>
+		<lahir>
+			<tempat>Bandung</tempat>
+			<tanggal>12 Oktober 1997</tanggal>
+		</lahir>
+		<alamat>Jl. Balon Udara No.119</alamat>
+		<no_hp>08122450581</no_hp>
+		<email>msulthanq@indrarh.com</email>
+		<thn_masuk>2015</thn_masuk>
+		<ortu>
+			<ayah>Teteng</ayah>
+			<ibu>Indah</ibu>
+			<alamat_ortu>Jl. Balon Udara No.119</alamat_ortu>
+		</ortu> 
+	</murid>
+		<murid aktif="ya">
+		<no_induk>109080706030</no_induk>
+		<nisn>9955112255</nisn>
+		<nama>Hadrian Zulfikar</nama>
+		<jk>Laki-laki</jk>
+		<lahir>
+			<tempat>Rancaekek</tempat>
+			<tanggal>12 Desember 1996</tanggal>
+		</lahir>
+		<alamat>Jl. Syuhada No.14</alamat>
+		<no_hp>08122450583</no_hp>
+		<email>hadrianzul@indrarh.com</email>
+		<thn_masuk>2015</thn_masuk>
+		<ortu>
+			<ayah>Asep Hidayat</ayah>
+			<ibu>Rohayati</ibu>
+			<alamat_ortu>Jl. Syuhada No.14</alamat_ortu>
+		</ortu> 
+	</murid>
+		<murid aktif="tidak">
+		<no_induk>109080706020</no_induk>
+		<nisn>9955116644</nisn>
+		<nama>Utari Ayu Surinawa</nama>
+		<jk>Perempuan</jk>
+		<lahir>
+			<tempat>Bandung</tempat>
+			<tanggal>9 September 1997</tanggal>
+		</lahir>
+		<alamat>Perumahan Zipur B4 No.31</alamat>
+		<no_hp>08122450584</no_hp>
+		<email>utariayus@indrarh.com</email>
+		<thn_masuk>2012</thn_masuk>
+		<ortu>
+			<ayah>Udin Haryadi</ayah>
+			<ibu>Tati Nuryanti</ibu>
+			<alamat_ortu>Perumahan Zipur B4 No.31</alamat_ortu>
+		</ortu> 
+	</murid>
+		<murid aktif="tidak">
+		<no_induk>109080706010</no_induk>
+		<nisn>9955119955</nisn>
+		<nama>Putri Widia Pratiwi</nama>
+		<jk>Perempuan</jk>
+		<lahir>
+			<tempat>Bandung</tempat>
+			<tanggal>10 Oktober 1997</tanggal>
+		</lahir>
+		<alamat>Komplek Bumi Orange F3 No.4</alamat>
+		<no_hp>08122450585</no_hp>
+		<email>putriwidiap@indrarh.com</email>
+		<thn_masuk>2012</thn_masuk>
+		<ortu>
+			<ayah>Dedi Suriadi</ayah>
+			<ibu>Poni</ibu>
+			<alamat_ortu>Komplek Bumi Orange F3 No.4</alamat_ortu>
+		</ortu> 
+	</murid>
+</datamurid>
