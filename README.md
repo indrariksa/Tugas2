@@ -3,7 +3,7 @@ Indra Riksa Herlambang - 1154051
 XML Schema Definiton (XSD) digunakan untuk menjelaskan atau mendefinisikan struktur dari dokumen xml dengan batasan-batasan yang lebih kompleks pada elemen dan atribut, untuk lebih singkatnya XSD digunakan untuk memverifikasi struktur dari dokumen xml.
 
 Langkah untuk membuat file xml dan schema xsd :
-1. File xml dapat diintegrasikan dengan berbagai project, untuk keperluan praktikum ini kita akan membuat project tidak utuh, hanya     membuat file xml dan xsd dengan tools dan plugin eclipse, kemudian memeriksa apakah dokumen tersebut valid, well form.
+1. File xml dapat diintegrasikan dengan berbagai project, untuk keperluan praktikum ini hanya membuat file xml dan xsd dengan tools dan plugin eclipse, kemudian memeriksa apakah dokumen tersebut valid dan well form.
 2. Klik file -> new -> project -> plug-in project
 3. Beri nama: tugasbab4_1154051, lalu klik next -> finish
 4. Pada package yang telah dibuat klik kanan pilih new -> other-> XML file -> beri nama murid.XML -> finish
