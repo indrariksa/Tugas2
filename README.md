@@ -7,7 +7,7 @@ File xml dapat diintegrasikan dengan berbagai project, disini kita akan membuat 
 Langkah untuk membuat file xml dan schema xsd :
 1. Klik file -> new -> project -> plug-in project
 2. Beri nama: tugasbab4_1154051, lalu klik next -> finish
-3. Pada package yang telah dibuat klik kanan pilih new -> other-> XML file -> beri nama murid.XML -> finish
+3. Pada package yang telah dibuat klik kanan pilih new -> other-> XML file -> beri nama murid.xml -> finish
 4. Setelah file XML terbuat, selanjutnya mengisi data pada file xml tersebut
 5. Setelah selesai, klik kanan pada murid.xml, lalu pilih Create XML Definition. Beri nama datamurid.xsd -> finish
 6. Lalu selanjutnya membuat reference file xsd pada file xml, Klik kanan pada datamurid.xsd lalu pilih generate -> XMLfile-> beri nama datamurid.xml -> next -> finish. Lalu link referensi tersebut di copy ke murid.xml
