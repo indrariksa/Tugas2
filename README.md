@@ -12,6 +12,6 @@ Langkah untuk membuat file xml dan schema xsd :
 5. Setelah selesai, klik kanan pada murid.xml, lalu pilih Create XML Definition. Beri nama datamurid.xsd -> finish
 6. Lalu selanjutnya membuat reference file xsd pada file xml, Klik kanan pada datamurid.xsd lalu pilih generate -> XMLfile-> beri nama datamurid.xml -> next -> finish. Lalu link referensi tersebut di copy ke murid.xml
 7. Setelah itu membuat patterns agar value dari atribut "aktif" isinya ya atau tidak, dan email dengan menggunakan ketentuan @indrarh.com
-8. Klik datamurid.xsd -> pada struktur klik murid -> klik aktif -> klik kanan pada mouse -> show properties -> pada constraint tambahkan pattern "ya|tidak"
-9. Selanjutnya pada struktur klik email -> klik kanan pada mouse -> show properties -> pada constraint tambahkan pattern ".+@indrarh.com"
+8. Klik datamurid.xsd -> pada struktur klik murid -> klik aktif -> klik kanan pada mouse -> show properties -> pada constraint tambahkan pattern
+9. Selanjutnya pada struktur klik email -> klik kanan pada mouse -> show properties -> pada constraint tambahkan pattern
 10. Selanjutnya tinggal di validasi, jika sudah benar maka tidak akan muncul error.
